@@ -1,5 +1,6 @@
 //Автор: Мурзин Алексей
 //Hello world
+//Страуструп C++11 C++14
 
 #include <iostream>
 #include <conio.h>
