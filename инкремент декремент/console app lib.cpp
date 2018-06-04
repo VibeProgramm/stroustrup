@@ -6,8 +6,8 @@
 
 int main()
 {
+	
 	SetConsoleRU();
-
 
 	int a = 1;
 	cout << "a = " << a << endl;
