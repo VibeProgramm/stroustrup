@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Глава 1. Провер�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "инкремент декремент", "инкремент декремент\инкремент декремент.vcxproj", "{2A8C04FC-48CD-41C3-BEEB-96B7559C7106}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Опасные преобразования", "Опасные преобразования\Опасные преобразования.vcxproj", "{CF12EF2F-D593-4D54-91E4-AF420B82394D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{2A8C04FC-48CD-41C3-BEEB-96B7559C7106}.Release|x64.Build.0 = Release|x64
 		{2A8C04FC-48CD-41C3-BEEB-96B7559C7106}.Release|x86.ActiveCfg = Release|Win32
 		{2A8C04FC-48CD-41C3-BEEB-96B7559C7106}.Release|x86.Build.0 = Release|Win32
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Debug|x64.ActiveCfg = Debug|x64
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Debug|x64.Build.0 = Debug|x64
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Debug|x86.Build.0 = Debug|Win32
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Release|x64.ActiveCfg = Release|x64
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Release|x64.Build.0 = Release|x64
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Release|x86.ActiveCfg = Release|Win32
+		{CF12EF2F-D593-4D54-91E4-AF420B82394D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
