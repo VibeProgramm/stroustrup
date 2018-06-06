@@ -2,10 +2,6 @@
 //Тестовый файл
 
 #include <std_lib_facilities.h>
-#include <qnetwork.h>
-#include <networkisolation.h>
-#include <windows.networking.sockets.h>
-#include <windows.networking.h>
 
 int sum()
 {
