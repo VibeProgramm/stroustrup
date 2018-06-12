@@ -12,8 +12,8 @@ int main()
 
 	//какойт-то код
 
-	int x{ d };
-
+	//int x{ d };
+	
 
 	system("pause");
 	return 0;

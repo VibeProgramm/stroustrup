@@ -32,7 +32,7 @@ void habrprint()
 	c4 = "Privet";*/
 	c3 = "Здравствуй, мир!";
 	cout << "c3 = " << c3 << endl;
-	///cout << endl << "c4 = " << c4 << endl;
+	//cout << endl << "c4 = " << c4 << endl;
 }
 int main()
 {
