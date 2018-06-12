@@ -12,7 +12,7 @@ int main()
 
 	//какойт-то код
 
-	//int x{ d };
+	//int x{ d }; //ошибка пытаемс€ присвоить тип double типу int
 	
 
 	system("pause");
