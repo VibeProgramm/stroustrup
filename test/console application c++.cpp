@@ -13,7 +13,11 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	
-	cout << sum() << endl;
+	const int N = 2;
+	int arr1[N];
+
+	constexpr int N2 = 3;
+	int arr2[N2];
 
 
 	_getch();
