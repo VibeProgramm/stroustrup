@@ -13,11 +13,13 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	
-	const int N = 2;
-	int arr1[N];
+	cout << "Введите температуру в цельсиях\n";
+	double celci; cin >> celci;
 
-	constexpr int N2 = 3;
-	int arr2[N2];
+	double farenge = (double)9 / 5 * celci + 32; //Ели не указать doule перед 9 то будет выполнятья 
+												//целоцисленое деление, а это здесь нам не нужно
+
+	cout << "Температура в фаренгейтах = " << farenge << endl;
 
 
 	_getch();
