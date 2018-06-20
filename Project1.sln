@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Цикл по всем эл
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Вектор функция для добавление элемента в вектор", "Вектор функция для добавление элемента в вектор\Вектор функция для добавление элемента в вектор.vcxproj", "{A41BF130-7FBF-4FF5-92BE-C24D33AC0B08}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Считывание в вектор", "Считывание в вектор\Считывание в вектор.vcxproj", "{2020E5E1-F381-469F-9E3A-19B4449DD9BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{A41BF130-7FBF-4FF5-92BE-C24D33AC0B08}.Release|x64.Build.0 = Release|x64
 		{A41BF130-7FBF-4FF5-92BE-C24D33AC0B08}.Release|x86.ActiveCfg = Release|Win32
 		{A41BF130-7FBF-4FF5-92BE-C24D33AC0B08}.Release|x86.Build.0 = Release|Win32
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Debug|x64.ActiveCfg = Debug|x64
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Debug|x64.Build.0 = Debug|x64
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Debug|x86.Build.0 = Debug|Win32
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Release|x64.ActiveCfg = Release|x64
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Release|x64.Build.0 = Release|x64
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Release|x86.ActiveCfg = Release|Win32
+		{2020E5E1-F381-469F-9E3A-19B4449DD9BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
