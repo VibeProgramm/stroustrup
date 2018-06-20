@@ -11,8 +11,8 @@ void add_el(const int el, vector<int> &v)
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	
-	
+
+
 	vector<int> v{ 1,2,3 };
 	cout << "Размер вектора: " << v.size() << endl;
 	add_el(4, v);
