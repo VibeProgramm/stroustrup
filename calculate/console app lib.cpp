@@ -10,9 +10,13 @@ int main()
 	SetConsoleRU();
 
 	cout << "¬ведите выражение: ";
-	double num_1; cin >> num_1; //cin num 1
-	char c; cin >> c;
-	double num_2; cin >> num_2; //cin num 2
+	
+	double num_1;
+	double num_2;
+	char c;
+	cin >> num_1 >> c >> num_2; //cin num 1, c, num 2
+
+
 
 	double sum(0);
 	switch (c)
