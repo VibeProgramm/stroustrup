@@ -9,7 +9,7 @@ public:
 	double value;
 	Token get_token()
 	{
-		s
+		
 	}
 
 };
