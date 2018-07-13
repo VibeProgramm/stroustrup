@@ -7,16 +7,32 @@ class  Token {
 public:
 	char kind;
 	double value;
+	Token get_token()
+	{
+		s
+	}
 
 };
+
+vector<Token> get_Token(vector<Token> t)
+{
+	char c;
+	cin >> c;
+	switch (c)
+	{
+	case "+": 
+	default:
+		break;
+
+	}
+}
+
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
 
 
-	Token t1{ '+' };
-	cout << "kind: " << t1.kind << endl << "value: " << t1.value << endl;
 
 	_getch();
 	return 0;
