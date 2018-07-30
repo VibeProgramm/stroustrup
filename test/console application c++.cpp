@@ -7,23 +7,22 @@ class  Token {
 public:
 	char kind;
 	double value;
-	Token get_token()
-	{
-		
-	}
-
+	
+	friend Token get_token(Token t);
 };
 
-vector<Token> get_Token(vector<Token> t)
+Token get_token(Token t)
 {
 	char c;
 	cin >> c;
-	switch (c)
-	{
-	case "+": 
-	default:
-		break;
 
+	if (c == '+' || c == '-' || c == '/' || c == '*')
+
+		t.kind = c;
+
+	else {
+		t.kind = '8';
+		t.value = c;
 	}
 }
 
@@ -32,8 +31,12 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-
+	Token t;
+	t.kind = '+';
+	get_token(t);
+	
 
 	_getch();
 	return 0;
 }
+
