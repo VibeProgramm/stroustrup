@@ -3,13 +3,7 @@
 
 #include <std_lib_facilities.h>
 
-class Bad_area
-{
-public:
-	void what() {
-		cout << "Ошибка! В Функцию не могут передаваться отрицательные аргументы!\n";
-	}
-};
+class Bad_area{};
 
 int area(int len, int wight)
 {
@@ -24,12 +18,14 @@ int main()
 
 	try
 	{
-		cout << "area = " << area(-7,10) << endl;
+		int x = -1;
+		int y = 10;
+		area(x, y);
 
 	}
-	catch (Bad_area& c)
+	catch (Bad_area)
 	{
-		c.what();
+		cout << "Ошибка" << endl;
 	}
 
 
