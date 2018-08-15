@@ -1,52 +1,40 @@
 //Автор: Мурзин Алексей
-//calculater
+//
 
 #include <std_lib_facilities.h>
 
+
+
 int main()
 {
-
 	SetConsoleRU();
 
-	cout << "Введите выражение (разрешены +, -, * и /) \n";
-	cout << "Добавтте x к концу выражение (1+2*3x)" << endl;
+	cout << "Введите выражение: ";
+	
+	double num_1;
+	double num_2;
+	char c;
+	cin >> num_1 >> c >> num_2; //cin num 1, c, num 2
 
-	int lval = 0;
-	int rval;
-	cin >> lval; //Чтение крайнего слева операнда
 
-	if (!cin)
+
+	double sum(0);
+	switch (c)
 	{
-		error("Нет перваого операнда");
+	case '+': sum = num_1 + num_2; break;
+	case '-': sum = num_1 - num_2; break;
+	case '*': sum = num_1 * num_2; break;
+	case '/': sum = num_1 / num_2; break;
+		
 	}
 
-	for (char op; cin >> op;)
-	{
-		//Многократно...
-		if (op != 'x')
-		{
-			cin >> rval;
-		}
-		if (!cin)
-		{
-			error("Нет второго операнда");
-		}
-		switch (op)
-		{
+	cout << "Результат: " << sum << endl;
+	
 
-			// Выполнение операций
-		case '+': lval += rval; break; // Сложение
-		case '-': lval -= rval; break; // Вычитание
-		case '*': lval *= rval; break; // Умножение
-		case '/': lval /= rval; break; // Деление
-			///////////////////////////////////////
 
-		default: // Операторов больше нет вывод результата
-			cout << "Результат: " << lval << endl;
-			system("pause");
-			return 0;
-		}
-	}
 
-	error("неверное выражение\n");
+
+
+	system("pause");
+	return 0;
 }
