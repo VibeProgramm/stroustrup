@@ -1,3 +1,6 @@
+//Автор: Мурзин Алексей
+//Тест
+
 #include <std_lib_facilities.h>
 void print_vector(const vector<int> &);
 
