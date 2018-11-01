@@ -4,7 +4,7 @@
 #include <std_lib_facilities.h>
 void print_vector(const vector<int> &);
 
-void print_vector(const vector<int>& v)
+void print_vector(const vector<int>& v) //доступ только для чтения
 {
 	cout << "vector { ";
 	for (int i = 0; i < v.size(); i++)
