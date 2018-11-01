@@ -121,6 +121,7 @@ double primary() {
 		error("требуется первичное выражение");
 	}
 }
+
 int main()
 {
 	SetConsoleRU();

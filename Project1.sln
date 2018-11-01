@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "исключения", "и�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculeter 2.0", "calculeter 2.0\calculeter 2.0.vcxproj", "{4F86312B-F1A5-4D6C-941C-E30DB91FE2D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "вывод вектора", "вывод вектора\вывод вектора.vcxproj", "{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{4F86312B-F1A5-4D6C-941C-E30DB91FE2D5}.Release|x64.Build.0 = Release|x64
 		{4F86312B-F1A5-4D6C-941C-E30DB91FE2D5}.Release|x86.ActiveCfg = Release|Win32
 		{4F86312B-F1A5-4D6C-941C-E30DB91FE2D5}.Release|x86.Build.0 = Release|Win32
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Debug|x64.ActiveCfg = Debug|x64
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Debug|x64.Build.0 = Debug|x64
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Debug|x86.Build.0 = Debug|Win32
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x64.ActiveCfg = Release|x64
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x64.Build.0 = Release|x64
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x86.ActiveCfg = Release|Win32
+		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
