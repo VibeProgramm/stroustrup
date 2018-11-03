@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculeter 2.0", "calculete
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "вывод вектора", "вывод вектора\вывод вектора.vcxproj", "{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Глава 8. Задание 1", "Глава 8. Задание 1\Глава 8. Задание 1.vcxproj", "{25FA5732-7EBE-4B8B-B238-EFF98B75909C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Многофайловый проект", "Многофайловый проект\Многофайловый проект.vcxproj", "{9058A68A-785C-424F-9F0D-E1B84CBC889A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +185,22 @@ Global
 		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x64.Build.0 = Release|x64
 		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x86.ActiveCfg = Release|Win32
 		{C9A7ACEF-87D1-4528-A2DC-AAB946DE755C}.Release|x86.Build.0 = Release|Win32
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Debug|x64.ActiveCfg = Debug|x64
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Debug|x64.Build.0 = Debug|x64
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Debug|x86.ActiveCfg = Debug|Win32
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Debug|x86.Build.0 = Debug|Win32
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Release|x64.ActiveCfg = Release|x64
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Release|x64.Build.0 = Release|x64
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Release|x86.ActiveCfg = Release|Win32
+		{25FA5732-7EBE-4B8B-B238-EFF98B75909C}.Release|x86.Build.0 = Release|Win32
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Debug|x64.ActiveCfg = Debug|x64
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Debug|x64.Build.0 = Debug|x64
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Debug|x86.Build.0 = Debug|Win32
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x64.ActiveCfg = Release|x64
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x64.Build.0 = Release|x64
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x86.ActiveCfg = Release|Win32
+		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
