@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Глава 8. Задани�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Многофайловый проект", "Многофайловый проект\Многофайловый проект.vcxproj", "{9058A68A-785C-424F-9F0D-E1B84CBC889A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Глава 8 упражнение 2", "Глава 8 задание 2\Глава 8 задание 2.vcxproj", "{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x64.Build.0 = Release|x64
 		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x86.ActiveCfg = Release|Win32
 		{9058A68A-785C-424F-9F0D-E1B84CBC889A}.Release|x86.Build.0 = Release|Win32
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Debug|x64.ActiveCfg = Debug|x64
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Debug|x64.Build.0 = Debug|x64
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Debug|x86.Build.0 = Debug|Win32
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Release|x64.ActiveCfg = Release|x64
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Release|x64.Build.0 = Release|x64
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Release|x86.ActiveCfg = Release|Win32
+		{277FCFAB-98A3-4165-B1A0-6B1B2AE437A7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
