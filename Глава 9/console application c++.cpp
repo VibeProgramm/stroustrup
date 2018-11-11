@@ -2,7 +2,24 @@
 // Глава 9
 #include <std_lib_facilities.h>
 
+class Data 
+{
+public:
+	Data(int y, int m, int d);
+	int mounth() { return m; }
+private:
+	int y, m, d; //год, месяц, день
+};
 
+
+Data::Data(int yy, int mm, int dd)
+
+//следующая запись представляет собой инициализацию членов класса и называется списком инициализации.
+	: y{yy}, m{mm}, d{dd}
+	//Эквивалентный код
+	//{ y = yy; m == mm; d == dd; }
+{
+}
 int main()
 {
 	setlocale(LC_ALL, "Russian");
